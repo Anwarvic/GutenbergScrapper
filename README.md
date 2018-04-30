@@ -1,2 +1,29 @@
 # GutenbergScrapper
-This repo contains a scrapper for the Gutenberg's project website which contains 56,019 books free to read and download. In this repo also, you can find text file containing all the book data until April 2018 containing only the 'id', 'title' and 'authors' for every book in the dataset.
+This repo contains a multi-threading scrapper for the Gutenberg's project website which contains 56,920 books free to read and download. It can scrape the whole website in just 5 hours. Also in this repo, you can find a text file containing the whole data until April 2018 containing only the _Ebook-No._, _title_, _authors_ and _language_ for every book because these attributes are the only ones that I cared about.
+
+You can add these attributes as well:
+
+- Subject
+- LoC Class
+- Category
+- Release Date
+- Copyright Status
+- Downloads
+- Price
+
+If you want to add any of/all these attributes, you can modify the script to add whatever you want by only modifying the member variable _INCLUDE_ like so:
+<pre>self.INCLUDE = set(['Title', 'Author', 'EBook-No.', 'Language'])</pre>
+  
+Then, run the script.
+
+##Prerequests
+You need to install:
+
+- Python3
+- Beautiful Soap 4.0
+- requests
+- multiprocessing
+
+
+
+
