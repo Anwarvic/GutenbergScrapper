@@ -37,7 +37,7 @@ Language: English
 ...
 </pre>
 
-##prerequisites
+## prerequisites
 
 You need to install:
 
