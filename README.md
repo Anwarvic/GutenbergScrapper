@@ -16,7 +16,29 @@ If you want to add any of/all these attributes, you can modify the script to add
   
 Then, run the script.
 
+The collected data will be like this:
+<pre>
+ID: 1
+Author: Jefferson, Thomas, 1743-1826
+Title: The Declaration of Independence of the United States of America
+Language: English
+
+ID: 2
+Author: United States
+Title: The United States Bill of Rights
+The Ten Original Amendments to the Constitution of the United States
+Language: English
+
+ID: 3
+Author: Kennedy, John F. (John Fitzgerald), 1917-1963
+Title: John F. Kennedy's Inaugural Address
+Language: English
+
+...
+</pre>
+
 ##prerequisites
+
 You need to install:
 
 - Python3
