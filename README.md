@@ -16,7 +16,7 @@ If you want to add any of/all these attributes, you can modify the script to add
   
 Then, run the script.
 
-##Prerequests
+##prerequisites
 You need to install:
 
 - Python3
